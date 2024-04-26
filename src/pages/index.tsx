@@ -53,9 +53,14 @@ export default function Home() {
               src='https://www.youtube.com/embed/5EIKul51VQo?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fsalveoenrico.com.br&amp;widgetid=1'
               id='widget2'></iframe>
           </div>
+
+          <button
+            className='bg-green-500 text-white uppercase font-bold rounded-md p-4 text-xl mt-4 transition duration-500 hover:opacity-70 '
+            type='button'>
+            quero ser um anjo do lorenzo
+          </button>
         </div>
       </div>
-
       <div>
         <svg
           className='wave-top bg-teal-300'
@@ -83,6 +88,11 @@ export default function Home() {
             </g>
           </g>
         </svg>
+      </div>
+      <div className='bg-teal-300 h-56'>
+        <h1 className='w-full text-center text-blue-600 font-semibold text-5xl'>
+          Veja quem está apoiando a nossa jornada...
+        </h1>
       </div>
     </div>
   );
