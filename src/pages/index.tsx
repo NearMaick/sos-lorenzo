@@ -1,3 +1,4 @@
+import { Carousel } from "@/components/Carousel";
 import { Montserrat } from "next/font/google";
 import Image from "next/image";
 import LorenzoLogo from "../../public/assets/logo-enrico.png";
@@ -93,6 +94,9 @@ export default function Home() {
         <h1 className='w-full text-center text-blue-600 font-semibold text-5xl'>
           Veja quem está apoiando a nossa jornada...
         </h1>
+      </div>
+      <div className='bg-teal-300'>
+        <Carousel />
       </div>
     </div>
   );
